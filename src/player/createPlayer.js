@@ -11,13 +11,13 @@ const createPlayer = () => {
       ` STATS 📊`.blue +
         `
   
-  💪 : ${this.strength}
-  🧠 : ${this.intelligence}
-  🤺 : ${this.agility}
-  🍀 : ${this.luck}
-  🩸 : ${this.hp}
-  💰 : ${this.money}
-  🧬 : ${this.xp}  
+  Strength💪 : ${this.strength}
+  Intelligence 🧠 : ${this.intelligence}
+  Agility 🤺 : ${this.agility}
+  Luck 🍀 : ${this.luck}
+  Hp 🩸 : ${this.hp}
+  Money 💰 : ${this.money}
+  Xp 🧬 : ${this.xp}  
       `
     )
   }
