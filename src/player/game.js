@@ -29,7 +29,7 @@ const game = async (player) => {
       case "3": {
         console.clear()
         await saveGame(player)
-        console.log("saved")
+        console.log("saved!")
 
         break
       }
@@ -46,8 +46,6 @@ const game = async (player) => {
         handleError(`ERROR: UNEXPECTED VALUE (${mainAnswer})`, 1)
       }
     }
-
-    console.log(player)
   }
 }
 export default game

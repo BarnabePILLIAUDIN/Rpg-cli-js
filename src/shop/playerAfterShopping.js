@@ -22,7 +22,6 @@ const playerAfterShopping = async (player) => {
 
   player[answer] += addedPoints
   player.money -= price
-  console.log(player)
 
   return player
 }
