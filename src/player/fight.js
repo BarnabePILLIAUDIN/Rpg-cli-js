@@ -3,6 +3,7 @@ import prompt from "../helpers/prompt.js"
 import getDamages from "./getDamages.js"
 import sayGoodBye from "./sayGoodBye.js"
 import getRandom from "../helpers/getRandom.js"
+import waitSeconds from "../helpers/waitSeconds.js"
 
 const fight = async (player) => {
   const enemy = createEntity()
@@ -62,6 +63,7 @@ const fight = async (player) => {
     console.log(
       `\n\n You have ${player.hp} pv and your openent has ${enemy.hp} pv\n`
     )
+    await waitSeconds(1)
   }
 }
 
