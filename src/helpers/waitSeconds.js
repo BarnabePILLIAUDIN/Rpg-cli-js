@@ -1,3 +1,4 @@
+//Fonction qui permet d'attendre un certain temps pris en paramètre
 const waitSeconds = (time) => {
   return new Promise((res) => {
     setTimeout(() => {

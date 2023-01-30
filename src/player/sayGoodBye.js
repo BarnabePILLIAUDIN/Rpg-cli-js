@@ -1,3 +1,4 @@
+//fonction qui affiche le message quand le jeu est finit
 const sayGoodBye = async () => {
   console.clear()
   console.log(

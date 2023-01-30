@@ -1,5 +1,6 @@
 import getCheckedAnswer from "../helpers/getCheckedAnswer.js"
 
+//Montre les prix du shop qui sont contenus dans un tableau (ce tableau est dans playerAfterShopping.js)
 const showPrices = async (data) => {
   console.log(
     "WELCOME TO THE SHOP!".blue +

@@ -38,6 +38,7 @@ const fight = async (player) => {
     enemy.hp -= playerDamages
     enemy.hp = Math.floor(enemy.hp)
 
+    //On vérifie si il y a un coup critique ou un coup manqué
     if (playerDamages > player.strength * 1.5) {
       console.log("💥 Nice one that was a critical shot".green)
     } else if (playerDamages === 0) {

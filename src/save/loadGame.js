@@ -24,6 +24,7 @@ const loadGame = async () => {
   )
   const file = await readFile(answer, { encoding: "utf-8" })
   const player = JSON.parse(file)
+  //Les méthodes ayant étés perdus lors de la sauvegarde en json on les remets dans l'objet
   player.showSats = function () {
     console.log(
       ` STATS 📊`.blue +
