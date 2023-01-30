@@ -26,14 +26,16 @@ const loadGame = async () => {
   const player = JSON.parse(file)
   player.showSats = function () {
     console.log(
-      `STATS 📊`.blue +
+      ` STATS 📊`.blue +
         `
   
-  💪 : ${this.strength}
-  🧠 : ${this.intelligence}
-  🤺 : ${this.agility}
-  🍀 : ${this.luck}
-  🩸 : ${this.hp}      
+  Strength💪 : ${this.strength}
+  Intelligence 🧠 : ${this.intelligence}
+  Agility 🤺 : ${this.agility}
+  Luck 🍀 : ${this.luck}
+  Hp 🩸 : ${this.hp}
+  Money 💰 : ${this.money}
+  Xp 🧬 : ${this.xp}  
       `
     )
   }
